@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Jolly+Lodger&family=Montserrat:wght@100..900&display=swap");
+
+:root {
+  --header-height: 3.5rem;
+  --first-color: hsl(25, 90%, 54%);
+  --first-color-alt: hsl(25, 85%, 50%);
+  --title-color: hsl(25, 48%, 12%);
+  --text-color: hsl(25, 32%, 24%);
+  --white-color: hsl(0, 0%, 100%);
+  --body-color: hsl(18, 58%, 82%);
+
+  --body-font: "Montserrat", sans-serif;
+  --second-font: "Jolly Lodger", system-ui;
+
+  --biggest-font-size: 3.5rem;
+  --normal-font-size: 0.938rem;
+
+  @media screen and (min-width: 1150px) {
+    --biggest-font-size: 8rem;
+    --normal-font-size: 1rem;
+  }
+
+  --font-regular: 400;
+  --font-semi-bold: 600;
+
+  --z-tooltip: 10;
+  --z-fixed: 100;
+}
